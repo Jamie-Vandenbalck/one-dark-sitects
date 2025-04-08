@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>one-dark-sitects</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -12,20 +12,33 @@
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="jamie@sitects.be" url="https://www.sitects.be">Sitects</vendor>
 
-    <idea-version since-build="241" until-build="243.*"/>
+    <idea-version since-build="241"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Makes your IDE look like Atom One Dark with refined custom UI colors.
-  ]]></description>
+        <p><strong>Sitects One Dark</strong> is a sleek and modern theme for JetBrains IDEs, inspired by the popular Atom One Dark color scheme.</p>
+        <p>It offers a refined, consistent and developer-friendly experience with carefully adjusted syntax highlighting, background contrast, and UI accents that reduce eye strain during long coding sessions.</p>
+        <ul>
+            <li>Fully supports both light and dark mode switching.</li>
+            <li>Tested with the latest IntelliJ-based IDEs.</li>
+            <li>Minimalistic and distraction-free appearance, optimized for focus.</li>
+        </ul>
+        <p>Created and maintained by <a href="https://www.sitects.be">Sitects</a>, tailored for developers who appreciate clean aesthetics and great usability.</p>
+    ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-    Initial release of the theme.
-  ]]></change-notes>
+        <ul>
+            <li>🎉 Initial release of the Sitects One Dark theme.</li>
+            <li>🎨 Inspired by Atom's One Dark color palette with custom enhancements.</li>
+            <li>🧪 Tested on IntelliJ IDEA, PhpStorm, WebStorm, and PyCharm.</li>
+            <li>🛠️ Includes support for status bars, popup menus, syntax highlighting, and more.</li>
+            <li>⚙️ Removed <code>&lt;until-build&gt;</code> to support newer IDE versions without needing plugin updates.</li>
+        </ul>
+    ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
